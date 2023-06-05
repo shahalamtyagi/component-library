@@ -1,0 +1,19 @@
+.main-left-right-container{
+    flex-grow: 1;
+    display: flex;
+}
+.layout-left-container{
+    flex-basis: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin : 2px;
+    border-right: .5px solid black;
+}
+.layout-left-container a{
+    text-decoration: none;
+}
+
+/* .layout-right-container{
+
+} */

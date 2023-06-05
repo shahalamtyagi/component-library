@@ -1,0 +1,15 @@
+
+.footer-container{
+    background-color: aqua;
+    flex-basis: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.footer-container a{
+    text-decoration: none;
+}
+.footer-container a:hover{
+    color: rgb(247, 46, 35);
+}
