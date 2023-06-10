@@ -13,28 +13,28 @@ export const Layout = () => {
       <div className="main-left-right-container">
         <div className="layout-left-container">
           <h3>components</h3>
-          <a className="components-link" href="/">
+          <a href="/" className="components-link" >
             Avatar
           </a>
-          <a className="components-link" href="/">
+          <a href="/" className="components-link">
             Badge
           </a>
-          <a className="components-link" href="/">
+          <a href="/" className="components-link" >
             Button
           </a>
-          <a className="components-link" href="/">
+          <a href="/" className="components-link" >
             Card
           </a>
-          <a className="components-link" href="/">
+          <a href="/" className="components-link" >
             Image
           </a>
-          <a className="components-link" href="/">
+          <a href="/"  className="components-link" >
             Input
           </a>
           <a className="components-link" href="/">
             list
           </a>
-          <a className="components-link" href="/">
+          <a href="/" className="components-link">
             avatar
           </a>
         </div>

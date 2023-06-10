@@ -9,7 +9,7 @@ return(
         <h2 className="nav-brand">ZOO</h2>
         
         <div className="link-container">
-            <a href="/" className="nav-link">HOME</a>
+            <a href="/#" className="nav-link">HOME</a>
        
             <a href="/" className="nav-link">ABOUT</a>
        
@@ -41,7 +41,7 @@ return(
         
         <li className="link">Alert</li>
     
-        <li className="link"><a href="">Avatar</a></li>
+        <li className="link"><a href="/">Avatar</a></li>
         
         <li className="link"><a>Badge</a></li>
         <li className="link"><a>Button</a></li>

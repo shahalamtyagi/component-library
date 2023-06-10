@@ -1,11 +1,13 @@
-import { Avatar } from "./Avatar"
-import { Layout } from "./layout"
+import { Avatar, ContactIcon } from "./Avatar";
+import { Layout } from "./layout";
 
- export const AvatarPage = ()=>{
-    return
+export const AvatarPage = () => {
+  return (
     <Layout>
-        <div>
-           <Avatar/>
-        </div>
+      <div>
+        <Avatar />
+        <ContactIcon />
+      </div>
     </Layout>
-}
+  );
+};
