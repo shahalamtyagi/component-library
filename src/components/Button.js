@@ -1,23 +1,27 @@
-
+import "./Button.css"
 export const CancleBtn = (props) =>{
-    // const {button} = props;
- return <button className="Cancle-Btn">{props.name}</button>
+    const {name} = props;
+ return <button className="Cancle-Btn">{name ? name : "Cancle button"}</button>
  };
   
   export const LikeBtn = (props) => {
-    return <button className="Like-Btn">{props.name}</button>
+   const {name} = props;
+    return <button className="Like-Btn">{name ? name : "Like"}</button>
  };
 
  export const SelectBtn = (props) => {
-    return <button className="Select-Btn">{props.name}</button>
+   const {name} = props;
+    return <button className="Select-Btn">{name ? name : "Select"}</button>
  };
  
  export const SearchBtn = (props) => {
-    return <button className="Search-Btn">{props.name}</button>
+   const {name} = props;
+    return <button className="Search-Btn">{name ? name : "Searching"}</button>
  };
 
 export const button = (props ) =>{
-    return <button className="Simple-Button">{props.name}</button>
+   const {name} = props;
+    return <button className="Simple-Button">{name ? name : "button"}</button>
  }
 //   export const RadioBtn = () => {
 //     return(

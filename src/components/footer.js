@@ -1,9 +1,10 @@
+import "./Footer.css"
 export const Footer = ()=>{
 return (
     <div className="footer-container">
-        <a href="/">Github</a>
-        <a href="/">Facebook</a>
-        <a href="/">Teligram</a>
+        <a className= "footer-links"href="/">Github</a>
+        <a className= "footer-links"href="/">Facebook</a>
+        <a className= "footer-links"href="/">Teligram</a>
       </div>
 )
 }

@@ -1,9 +1,13 @@
 import { Card, SecoundCard } from "./Card"
+import { Layout } from "./components/Layout"
 
  export const CardPage= ()=>{
-    return (<div>
+    return (
+    <Layout>
         <Card/>
         <SecoundCard/>
-    </div>
+    </Layout>
+        
+    
     )
 }

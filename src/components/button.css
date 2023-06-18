@@ -1,4 +1,42 @@
-/* .Cancle-Btn{
+.Like-Btn{
+    background-color: white;
+    color: black;
+    border: 2px solod black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100px;
+    height: 40px;
+}
+.Like-Btn:hover{
+    background-color: blue;
+    color: white;
+}
+.Search-Btn{
+    background-color: lightgreen;
+    color: black;
+    cursor: wait;
+    width: 150px;
+    height: 30px;
+   }
+   .Cancle-Btn{
+    background-color: lightblue;
+    color: black;
+    padding: 6px;
+   text-align: center;
+   }
+   .Select-Btn{
+    background-color: blue;
+    color: white;
+    cursor: progress;
+    /* margin: 2px; */
+    border-radius: 8px;
+    padding:  8px  8px;
+   }
+   .Select-Btn:hover{
+    background-color: darkorange;
+    color: black;
+}
+   .button-iframe{
+    
     padding: 1rem;
-    color: aqua;
-} */
+   }

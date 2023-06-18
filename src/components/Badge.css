@@ -1,0 +1,19 @@
+/* .badge-page-container{
+    border: 2px solid black;
+    background-color: aqua;
+    
+    align-items: center;
+    padding: 1rem;
+} */
+.badge-page-image{
+    width: 55px;
+    height: 50px;
+    align-items: center;
+padding: 1rem;
+}
+.github-badge-image{
+    width: 55px;
+    height: 70px;
+    align-items: center;
+padding: 1rem;
+}
