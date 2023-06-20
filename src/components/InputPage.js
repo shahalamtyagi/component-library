@@ -1,11 +1,14 @@
-import { Inputs } from "./Input"
-import { Layout } from "./layout"
+import { EmailInput, NameInput, NumberInput } from "./Input"
+import { Layout } from "./Layout"
 
  export const InputPage = ()=>{
     return(
       <Layout>
         <div>
-        <Inputs/>
+        <NameInput/>
+        <EmailInput/>
+        <NumberInput/>
+
         </div>
       
       </Layout>

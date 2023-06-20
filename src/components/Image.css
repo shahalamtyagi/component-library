@@ -1,0 +1,23 @@
+.img {
+    width: 32rem;
+    height: 20rem;
+    border: 3px solid black;
+    border-radius: 10rem;
+    padding: 1rem;
+    background-color: yellowgreen;
+    
+}
+/* .image-container{
+    display: flex;
+    text-align: center;
+} */
+
+.architecture-image{
+    /* width: 32rem;
+    height: 20rem; */
+    border: 3px solid black;
+    border-radius: 10rem;
+    padding: 1rem;
+    background-color: blue;
+    box-shadow:  2rem 2rem 3rem 2rem;
+}

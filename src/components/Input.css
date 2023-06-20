@@ -1,0 +1,17 @@
+#name-input{
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#number-input{
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 5px 5px;
+}
+#email-input{
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}

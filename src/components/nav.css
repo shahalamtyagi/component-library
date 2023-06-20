@@ -1,7 +1,7 @@
 .navigation-bar{
-    display: flex;
+    /* display: flex; */
     background-color: darkorange;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
    align-items: center;
    justify-content: space-between;
 }

@@ -1,5 +1,5 @@
 import { Card, SecoundCard } from "./Card"
-import { Layout } from "./components/Layout"
+import { Layout } from "./Layout"
 
  export const CardPage= ()=>{
     return (
