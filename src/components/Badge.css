@@ -1,10 +1,4 @@
-/* .badge-page-container{
-    border: 2px solid black;
-    background-color: aqua;
-    
-    align-items: center;
-    padding: 1rem;
-} */
+
 .badge-page-image{
     width: 55px;
     height: 50px;
@@ -17,3 +11,46 @@ padding: 1rem;
     align-items: center;
 padding: 1rem;
 }
+.message-badge-wrapper{
+    display: flex;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.message-badge-wrapper::after{
+    content: attr(value);
+    position: relative;
+    border: 1px solid black;
+    font-size: small;
+    background-color: blue;
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    right: 1.5rem;
+    bottom: 4px;
+}
+
+.facebook-badge-wrapper{
+    display: flex;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+.facebook-badge-wrapper::after{
+    content: attr(FacebookBadgeValue);
+    position: relative;
+    border: 1px solid black;
+    font-size: small;
+    background-color: greenyellow;
+    color: black;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+text-align: center;
+    font-weight: bold;
+    right: 1.3rem;
+    bottom: 1rem;
+}
+

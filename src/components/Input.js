@@ -27,15 +27,6 @@ export const NumberInput = () => {
   );
 };
 
-// export const DateInput = () => {
-//   return (
-//     <div className="date-input-container">
-//       <h2>Inputs</h2>
-//       <p>Enter Date</p>
-//       <input type="date" id="fname" name="fname"placeholder="Enter your name" />
-//     </div>
-//   );
-// };
 
 
 
@@ -43,17 +34,3 @@ export const NumberInput = () => {
 
 
 
-
-
-
-{/* <br />
-      <label for="lname">LAST NAME:</label>
-      <br />
-      <input type="text" id="lname" name="lname" />
-      <br />
-      <label for="num">ENTER YOUR NUMBER :</label>
-      <br />
-      <input type="number" id="num" name="num" />
-      <br />
-      <input type="submit" value="Submit" />
-      <hr /> */}

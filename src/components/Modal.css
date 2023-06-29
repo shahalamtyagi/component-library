@@ -1,0 +1,49 @@
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    border: 2px solid whitesmoke;
+    font-size: larger;
+ align-items: center;
+ padding-bottom: 5rem;
+}
+.modal-input-container{
+   width: 80%;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding: 2rem;
+   
+}
+
+.modal-btn{
+    width: 50%;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+    text-align: center; 
+}
+.modal-name-input{
+ height: 3rem;
+ width: 100%;
+}
+.modal-name-label{
+    font-size: larger;
+    padding: 1rem;
+}
+
+.modal-mail-input{
+  height: 3rem;
+  width: 100%;
+    }
+    .modal-emial-label{
+        font-size: larger;
+        padding: 1rem;
+    }
+
+    .cross-icon{
+        font-size: larger;
+        padding-left: 13rem;
+        font-weight: bold;
+    }
