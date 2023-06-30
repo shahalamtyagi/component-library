@@ -1,6 +1,4 @@
 import "./Badge.css";
-import { GiPoliceBadge } from "react-icons/gi";
-import { DiGithubBadge } from "react-icons/di";
 import {BiMessageDots} from "react-icons/bi";
 import {BsFacebook} from "react-icons/bs"
 

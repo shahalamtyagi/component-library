@@ -25,12 +25,12 @@ function App() {
           <Route path="avatarpage" Component={AvatarPage} />
           <Route path="badgepage" Component={BadgePage} />
           <Route path="buttonpage" Component={ButtonPage} />
-          <Route path="imagepage" Component={ImagePage} />
           <Route path="cardpage" Component={CardPage} />
-          <Route path="navbarpage" Component={Navbarpage} />
+          <Route path="imagepage" Component={ImagePage} />
           <Route path="inputpage" Component={InputPage} />
           <Route path="listpage" Component={ListPage} />
           <Route path="modalpage" Component={ModalPage} />
+          <Route path="navbarpage" Component={Navbarpage} />
           <Route path="rattingcard" Component={RattingCard}/>
          <Route path="toastpage" Component={ToastPage} />
         </Routes>

@@ -36,7 +36,7 @@ export const Sidebar = () => {
       <Link className="sidebar-links" to="/navbarpage">
         Navbar
       </Link>
-      <Link className="sidebar-links" to="/ratingcardpage">
+      <Link className="sidebar-links" to="/rattingcardpage">
         Rating Card
       </Link>
       <Link className="sidebar-links" to="/toastpage">

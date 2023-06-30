@@ -1,6 +1,6 @@
 import "./Input.css"
 export const NameInput = (props) => {
-  const {nameinputcontainer , nameinput } = props;
+  const {nameinputcontainer} = props;
   return (
     <div className={`name-input-container ${nameinputcontainer}`}>
       <h2>Inputs</h2>
@@ -11,7 +11,7 @@ export const NameInput = (props) => {
 };
 
 export const EmailInput = (props) => {
-  const {emailinputcontainer , emailinput} = props;
+  const {emailinputcontainer} = props;
   return (
     <div className={`email-input-container ${emailinputcontainer}`}>
       <p>Enter email</p>
@@ -21,7 +21,7 @@ export const EmailInput = (props) => {
 };
 
 export const NumberInput = (props) => {
-  const {numberinputcontainer , numberinput} = props
+  const {numberinputcontainer} = props
   return (
     <div className={`number-input-container ${numberinputcontainer}`}>
       <p>Enter number</p>

@@ -1,4 +1,4 @@
-import { FacebookBadge, GithubBadge, MessageBadge, PoliceBadge } from "./Badge";
+import { FacebookBadge,  MessageBadge, } from "./Badge";
 import { Layout } from "./Layout";
 
 export const BadgePage = () => {
