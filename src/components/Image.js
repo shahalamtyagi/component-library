@@ -9,10 +9,11 @@ const {imagecontainer , imgclass , src , alt} = props;
     )
 } 
 
- export const ArchitectureImage = ()=>{
+ export const ArchitectureImage = (props)=>{
+    const {architectureimage , src , alt } = props;
     return(
         <div>
-            <img className="architecture-image"src="https://images.unsplash.com/photo-1686345233737-8f218f94f44f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8TThqVmJMYlRSd3N8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="/"/>
+            <img className={`architecture-image ${architectureimage}`}src= {src ? src :"https://images.unsplash.com/photo-1686345233737-8f218f94f44f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8TThqVmJMYlRSd3N8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"} alt={alt}/>
         </div>
     )
 }

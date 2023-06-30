@@ -38,7 +38,7 @@
     background-color: aqua;
 }
 .content {
-    text-align: center;
+    /* text-align: center; */
     padding: 1rem;
 }
 .layout-body{

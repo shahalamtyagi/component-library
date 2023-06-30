@@ -1,8 +1,9 @@
 import "./Modal.css"
 import {RxCross2} from "react-icons/rx"
-export const Modal = ()=>{
+export const Modal = (props)=>{
+ const {modalcontaier} = props;
     return (
-        <div className="modal-container">
+        <div className={`modal-container ${modalcontaier}`}>
             <RxCross2 className="cross-icon"/>
             <div className="modal-input-container">
             <label for="name" className="modal-name-label" placeholder="Enter Your Name">NAME</label>
@@ -11,7 +12,7 @@ export const Modal = ()=>{
             <input type="text" className="modal-mail-input"/>
            
             </div>
-            <button className="modal-btn">check</button>
+            <button className="modal-btn ">check</button>
            
         </div>
     )

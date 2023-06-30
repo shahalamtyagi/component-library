@@ -1,13 +1,11 @@
 import { Layout } from "./Layout"
-import { Modal } from "./Modal"
 
-export const ModalPage = ()=>{
-    return(
+ export const RattingCardPage = ()=>{
+    return (
         <Layout>
             <div>
-                <Modal/>
+                <RattingCard/>
             </div>
-          
         </Layout>
     )
 }

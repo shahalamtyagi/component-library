@@ -2,6 +2,8 @@
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
+    font-size: larger;
+    border-color: blue;
 }
 
 #number-input{
@@ -9,9 +11,16 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 5px 5px;
+    font-size: larger;
+    border-color: red;
 }
 #email-input{
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
+    font-size: larger;
+    border-color: yellow;
+}
+.iframe-wrapper{
+    padding-top: 1rem;
 }

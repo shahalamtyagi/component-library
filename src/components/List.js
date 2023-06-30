@@ -1,6 +1,7 @@
 import "./List.css"
- export const UnorderList = ()=>{
-    return <div className= "unorderlist-wrapper">
+ export const UnorderList = (props)=>{
+    const {Unorderlistwrapper} = props;
+    return <div className= {`unorderlist-wrapper ${Unorderlistwrapper}`}>
         <ul>
             <li className="unorderlist-Item">HTML</li>  
             <li className="unorderlist-Item">CSS</li>
@@ -10,8 +11,9 @@ import "./List.css"
     </div>
 }
 
- export const OrderList = ()=>{
-    return <div className="orderlist-wrapper">
+ export const OrderList = (props)=>{
+    const {orderlistwrapper } = props;
+    return <div className={`orderlist-wrapper ${orderlistwrapper}`}>
         <ol>
             <li className="orderlist-item">SEARCHING</li>
             <li className="orderlist-item">JAVA SCRIPT</li>
