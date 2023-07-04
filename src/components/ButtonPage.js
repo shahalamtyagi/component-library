@@ -1,6 +1,7 @@
 import { CancleBtn, LikeBtn, SearchBtn, SelectBtn } from "./Button";
 import { Layout } from "./Layout";
-
+import { Link } from "react-router-dom";
+import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
 export const ButtonPage = () => {
   return (
     <Layout>
@@ -60,6 +61,19 @@ export const ButtonPage = () => {
   sandbox="allow-scripts allow-same-origin">
 </iframe>
       </div>
+      <div className="button-container">
+      <span>
+      <Link to="/cardpage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </span>
+            <span>
+              <Link to="/badgepage">
+            <BsFillArrowLeftCircleFill/>
+            </Link>
+            </span>
+      </div>
+      
     </Layout>
   );
 };

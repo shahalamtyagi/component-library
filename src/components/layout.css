@@ -1,3 +1,4 @@
+
 .main-body-container{
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@
     background-color: aqua;
 }
 .content {
-    /* text-align: center; */
+   width: inherit;
     padding: 1rem;
 }
 .layout-body{

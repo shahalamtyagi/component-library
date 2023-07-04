@@ -1,6 +1,9 @@
 import { Avatar } from "./Avatar";
 import { Layout } from "./Layout";
 import { HeartIcon } from "./Avatar";
+import {BsFillArrowLeftCircleFill} from "react-icons/bs";
+import {BsArrowRightCircleFill} from "react-icons/bs"
+import { Link } from "react-router-dom";
 export const AvatarPage = () => {
   return (
     <Layout>
@@ -31,6 +34,22 @@ export const AvatarPage = () => {
 </iframe>
         </div>
       </div>
+      <div className="button-container">
+      <div>
+        <Link to="/badgepage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </div>
+
+            <div>
+              <Link to="/alertpage">
+            <BsFillArrowLeftCircleFill className="left-icon"/>
+            </Link>
+            </div>
+      </div>
+       
+            
+           
     </Layout>
   );
 };

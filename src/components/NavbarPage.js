@@ -1,6 +1,7 @@
 import { Layout } from "./Layout";
 import { HeaderNavbar, Navbar } from "./Nav";
-
+import { Link } from "react-router-dom";
+import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
 export const Navbarpage = () => {
   return (
     <Layout>
@@ -29,6 +30,19 @@ export const Navbarpage = () => {
   sandbox="allow-scripts allow-same-origin">
 </iframe>
       </div>
+      <div className="button-container">
+      <span>
+      <Link to="/rattingcardpage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </span>
+            <span>
+              <Link to="/modalpage" >
+            <BsFillArrowLeftCircleFill className="left-icon"/>
+            </Link>
+            </span>
+      </div>
+     
     </Layout>
   );
 };

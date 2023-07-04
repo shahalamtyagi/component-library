@@ -1,6 +1,7 @@
 import { Card, SecoundCard } from "./Card";
 import { Layout } from "./Layout";
-
+import { Link } from "react-router-dom";
+import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
 export const CardPage = () => {
   return (
     <Layout>
@@ -23,6 +24,19 @@ export const CardPage = () => {
   style={{width: "1024px", height: "307px", border:"0", transform: "scale(1)", overflow:"hidden",}}
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+<div className="button-container">
+<span>
+      <Link to="/imagepage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </span>
+            <span>
+              <Link to="/buttonpage">
+            <BsFillArrowLeftCircleFill/>
+            </Link>
+            </span>
+</div>
+
     </Layout>
   );
 };

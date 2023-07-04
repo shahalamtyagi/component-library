@@ -1,3 +1,14 @@
+@import url("./components/All.css");
+
+
+@media(min-width: 1000px){
+  .right-icon{
+      display: none;
+  }
+  .left-icon{
+    display: none;
+  }
+}
 .App {
   text-align: center;
 }

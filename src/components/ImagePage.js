@@ -1,6 +1,7 @@
 import { ArchitectureImage, SimpleImage } from "./Image";
 import { Layout } from "./Layout";
-
+import { Link } from "react-router-dom";
+import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
 export const ImagePage = () => {
   return (
     <div>
@@ -35,6 +36,19 @@ export const ImagePage = () => {
           sandbox="allow-scripts allow-same-origin"
         ></iframe>
         </div>
+        <div className="button-container">
+        <span>
+      <Link to="/inputpage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </span>
+            <span>
+              <Link to="/cardpage">
+            <BsFillArrowLeftCircleFill/>
+            </Link>
+            </span>
+        </div>
+      
       </Layout>
     </div>
   );

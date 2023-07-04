@@ -6,6 +6,8 @@
     font-size: larger;
  align-items: center;
  padding-bottom: 5rem;
+ width: 30%;
+ height: 50vh;
 }
 .modal-input-container{
    width: 80%;

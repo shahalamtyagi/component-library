@@ -12,8 +12,8 @@ import {ImagePage} from "./components/ImagePage";
 import {InputPage} from "./components/InputPage";
 import {ListPage} from "./components/ListPage";
 import { ModalPage } from "./components/ModalPage";
-import { RattingCard } from "./components/RattingCard";
 import { ToastPage } from "./components/ToastPage";
+import { RattingCardPage } from "./components/RattingCardPage";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Route path="listpage" Component={ListPage} />
           <Route path="modalpage" Component={ModalPage} />
           <Route path="navbarpage" Component={Navbarpage} />
-          <Route path="rattingcard" Component={RattingCard}/>
+          <Route path="rattingcardpage" Component={RattingCardPage}/>
          <Route path="toastpage" Component={ToastPage} />
         </Routes>
       </Router> 

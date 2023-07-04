@@ -1,14 +1,11 @@
 import "./Toast.css"
-import {RxCross2} from "react-icons/rx"
- export const SuccessToast =()=>{
+import {VscCheckAll} from "react-icons/vsc"
+ export const SuccessToast =(props)=>{
+    const {successtoastcontainer, successcrossicon} = props
     return(
-        <div>
-            
-       <div class="success-toast-container">
-       <RxCross2 className="success-cross-icon"/>
-          <p>This is a sucess toast </p>
-        </div>
-      
+       <div class={`success-toast-container ${successtoastcontainer}`}>
+       <VscCheckAll className={`success-cross-icon ${successcrossicon}`}/>
+          <p>This is a success toast </p>
         </div>
     )
 }

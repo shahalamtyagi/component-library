@@ -1,6 +1,7 @@
 import { EmailInput, NameInput, NumberInput } from "./Input";
 import { Layout } from "./Layout";
-
+import { Link } from "react-router-dom";
+import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
 export const InputPage = () => {
   return (
     <Layout>
@@ -49,6 +50,19 @@ export const InputPage = () => {
           ></iframe>
         </div>
       </div>
+      <div className="button-container">
+      <span>
+      <Link to="/listpage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </span>
+            <span>
+              <Link to="/imagepage">
+            <BsFillArrowLeftCircleFill/>
+            </Link>
+            </span>
+      </div>
+      
     </Layout>
   );
 };

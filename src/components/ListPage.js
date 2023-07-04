@@ -1,6 +1,7 @@
 import { Layout } from "./Layout";
 import { OrderList, UnorderList } from "./List";
-
+import { Link } from "react-router-dom";
+import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
 export const ListPage = () => {
   return (
     <Layout>
@@ -35,6 +36,19 @@ export const ListPage = () => {
           ></iframe>
         </div>
       </div>
+      <div className="button-container">
+      <span>
+      <Link to="/modalpage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </span>
+            <span>
+              <Link to="/inputpage">
+            <BsFillArrowLeftCircleFill/>
+            </Link>
+            </span>
+      </div>
+      
     </Layout>
   );
 };

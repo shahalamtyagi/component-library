@@ -1,5 +1,7 @@
 import { Layout } from "./Layout"
 import { AddAlert, AlertCircle } from "./Alert"
+import { BsArrowRightCircleFill} from "react-icons/bs"
+import { Link } from "react-router-dom"
 export const AlertPage =()=>{
     return (
         <Layout>
@@ -29,7 +31,14 @@ export const AlertPage =()=>{
 </div>
         </div>
         </div>
-           
+        <div className="avatar-next-btn">
+        <span>
+            <Link to="/avatarpage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+           </span>
+        </div>
+          
         </Layout>
     )
 }

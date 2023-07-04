@@ -1,5 +1,7 @@
 import { FacebookBadge,  MessageBadge, } from "./Badge";
 import { Layout } from "./Layout";
+import { Link } from "react-router-dom";
+import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
 
 export const BadgePage = () => {
   return (
@@ -36,6 +38,20 @@ export const BadgePage = () => {
           </div>
         </div>
       </div>
+      
+      <div className="button-container">
+        <span>
+       
+        <Link to="/buttonpage">
+            <BsArrowRightCircleFill className="right-icon"/>
+            </Link>
+        </span>
+            <span>
+              <Link to="/avatarpage">
+            <BsFillArrowLeftCircleFill/>
+            </Link>
+            </span>
+            </div>
     </Layout>
   );
 };

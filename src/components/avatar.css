@@ -32,3 +32,19 @@ font-size: larger;
     padding-bottom: 1rem;
     padding-top: 2rem;
 }
+/* .left-icon{
+    width: 50%;
+    height: 5vh;
+    padding: 2rem;
+} */
+
+.button-container{
+    display: flex;
+   font-size: 3rem;
+    justify-content: space-between;
+}
+.avatar-next-btn{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
