@@ -1,5 +1,6 @@
 import "./RattingCard.css"
 import { AiOutlineStar} from "react-icons/ai"
+import {AiFillStar} from "react-icons/ai"
 export const RattingCard = (props)=>{
     const {imgwrapper, src , alt ,submitbtnclass} = props;
         return (<div>
@@ -20,4 +21,28 @@ export const RattingCard = (props)=>{
         </div>
         )
         
+}
+
+
+export const AirpodCard = () =>{
+    return(
+        <div className="main-container">
+            <div className="card-container">
+                <img className="card-img" src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWlycG9kc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="watch image"/>
+                <h4 className="image-name">Airpods</h4>
+                <p>Men multi function Airpods</p>
+                <h5 className="image-cost">$70.10</h5>
+                <div className=" star image-star">
+                    <i className="image-icon cheked"> <AiFillStar/></i>
+                    <i className="image-icon cheked"> <AiFillStar/></i>
+                    <i className="image-icon cheked"> <AiFillStar/></i>
+                    <i className="image-icon cheked"> <AiFillStar/></i>
+                    <i className="image-icon"> <AiFillStar/></i>
+                </div>
+                <div className="btn-container">
+                    <button type="btn" className="btn">Add to bag </button>
+                </div>
+            </div>
+            </div>
+    )
 }

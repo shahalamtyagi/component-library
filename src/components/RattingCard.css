@@ -32,3 +32,31 @@ width: 20rem;
 .itrame-wrapper{
   padding-top: 2rem;
 }
+
+
+
+.card-container {
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  width: 40vh;
+    height: 70vh;
+}
+.cheked {
+  color: blue;
+}
+.star {
+  font-size: 20px;
+}
+.bag-icon-card {
+  font-size: larger;
+  padding-left: 2rem;
+}
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  padding: 5px 0px;
+}

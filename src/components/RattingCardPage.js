@@ -5,7 +5,7 @@ import {BsArrowRightCircleFill,BsFillArrowLeftCircleFill} from "react-icons/bs"
  export const RattingCardPage = ()=>{
     return (
         <Layout>
-            <div className="ratting-card-main-container">
+            <div className="ratting-card-main">
                 <RattingCard/>
                 <div className="itrame-wrapper">
                 <iframe title="ratting-card"

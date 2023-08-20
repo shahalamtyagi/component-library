@@ -11,7 +11,7 @@ export function Navbar(props) {
               HOME
             </a>
             <a href={href} className={`nav-link ${navlinkclass}`}>
-              ABOUT
+              ABOUT   
             </a>
             <a href={href} className={`nav-link ${navlinkclass}`}>
               PROJECT
